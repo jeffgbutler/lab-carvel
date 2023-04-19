@@ -5,4 +5,5 @@ modules:
     - workshop-overview
     - setup-environment
     - exercises/01-sample-content
+    - exercises/kbld
     - workshop-summary
