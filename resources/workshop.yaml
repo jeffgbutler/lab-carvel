@@ -18,6 +18,9 @@ spec:
     namespaces:
       budget: small
     applications:
+      files:
+        directory: exercises
+        enabled: true
       terminal:
         enabled: true
         layout: split

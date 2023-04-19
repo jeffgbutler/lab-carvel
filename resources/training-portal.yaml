@@ -4,6 +4,8 @@ metadata:
   name: lab-carvel
 spec:
   portal:
+    updates:
+      workshop: true
     registration:
       type: anonymous
   workshops:
