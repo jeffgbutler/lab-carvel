@@ -30,7 +30,7 @@ digests instead of labels. This can be useful to convert Kubernetes YAML to use 
 For example, open the sample Kubernetes pod definition:
 
 ```editor:open-file
-file:~/exercises/kbld/nginx-pod.yaml
+file: ~/exercises/kbld/nginx-pod.yaml
 ```
 
 We can run kbld with a command like this:

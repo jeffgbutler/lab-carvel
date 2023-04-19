@@ -22,4 +22,3 @@ kubectl get trainingportal/lab-carvel
 
 The training portal is configured to allow anonymous access. For your own
 workshop content you should consider removing anonymous access.
-

@@ -1,0 +1,17 @@
+#@ load("@ytt:data", "data")
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  namespace: #@ data.values.namespace
+  labels:
+    name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
