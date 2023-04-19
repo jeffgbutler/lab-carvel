@@ -1,0 +1,13 @@
+apiVersion: training.eduk8s.io/v1alpha1
+kind: TrainingPortal
+metadata:
+  name: lab-carvel
+spec:
+  portal:
+    registration:
+      type: anonymous
+  workshops:
+  - name: lab-carvel
+    capacity: 1
+    expires: 60m
+    orphaned: 5m

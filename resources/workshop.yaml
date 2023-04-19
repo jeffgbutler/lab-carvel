@@ -1,0 +1,25 @@
+apiVersion: training.eduk8s.io/v1alpha2
+kind: Workshop
+metadata:
+  name: lab-carvel
+spec:
+  title: Carvel Lab
+  description: Carvel Tools Workshop
+  vendor: jeffgbutler
+  difficulty: beginner
+  duration: 45m
+  url: https://github.com/jeffgbutler/lab-carvel
+  content:
+    #image: quay.io/eduk8s/lab-markdown-sample:master
+    files: github.com/jeffgbutler/lab-carvel
+  session:
+    namespaces:
+      budget: small
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      console:
+        enabled: true
+      editor:
+        enabled: true
