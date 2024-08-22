@@ -1,5 +1,3 @@
-# Kbld Overview
-
 Kbld (K Build) is another relatively simple tool. It does two main things:
 
 1. It can be used as a build tool for local development (we will not use this capability in this workshop)
